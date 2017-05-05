@@ -14,8 +14,8 @@
 	Enter file in which to save the key (/Users/shawn/.ssh/id_rsa): github_id_rsa
 	Enter passphrase (empty for no passphrase): 
 	Enter same passphrase again: 
-	Your identification has been saved in github_id_rsa.
-	Your public key has been saved in github_id_rsa.pub.
+	Your identification has been saved in id_rsa.
+	Your public key has been saved in id_rsa.pub.
 	The key fingerprint is:
 	*****
 	
