@@ -1,3 +1,17 @@
+# Sublime
+close the update check
+
+```json
+{
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"update_check": false
+}
+```
+
 # Solarized
 
 Solarized is a color scheme created by [Ethan Schoonover](http://ethanschoonover.com/solarized). There are [versions](https://github.com/altercation/solarized) for pretty much every editor out there, this is the one to get for Sublime Text 3.
