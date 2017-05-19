@@ -39,9 +39,20 @@ interact
 
 ##2. 将expect脚本copy到$PATH下（例如/usr/local/bin）
 
+	$ wget https://raw.githubusercontent.com/wx5223/tools/master/script/login.exp
 	$ cp login.exp /usr/local/bin/login.exp
 	$ chmod +x /usr/local/bin/login.exp
 	
 ##3. 在iterm2中设置登录脚本，用command+o的方式呼出profiles，点击Edit Profiles
 
-![]()
+###接着新建一个Profile
+
+![profiles](https://raw.githubusercontent.com/wx5223/tools/master/resources/iterm2-ssh.png)
+	
+	login.exp 地址 端口 用户名 密码
+
+
+##4.使用
+
+配好后，只要command+o的方式呼出profiles，双击需要打开的Profile。
+

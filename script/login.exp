@@ -28,5 +28,4 @@ expect {
         exit 1
     }
 }
-#puts "\n--> Connected: $ip, pls enjoy yourself!\n"
 interact
