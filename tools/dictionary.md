@@ -21,3 +21,5 @@
 
 		a) Macintosh HD/Library/Dictionaries文件夹 
 		b) Macintosh HD/Users/你的用户名/Library/Dictionaries文件夹
+
+[牛津、朗文、剑桥、柯林斯四合一双解版](https://pan.baidu.com/share/init?surl=c1Ka7zq)   密码:ymuo（9月6日已修复CSS样式问题）（这本词典需安装Kingsoft Phonetic Plain字体，否则音标显示不正常。[字体下载地址](https://pan.baidu.com/s/1eRDk8E2)  密码:o3r4）
