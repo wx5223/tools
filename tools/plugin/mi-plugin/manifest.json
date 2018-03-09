@@ -1,0 +1,27 @@
+{
+  "name": "mi-plugin",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "auto buy",
+  "browser_action": {
+    "default_icon": "1.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://item.mi.com/*"],
+      "js": ["script.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://static.mi.com/buySuccess/*"],
+      "js": ["buy.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://static.mi.com/cart*", "https://order.mi.com/buy*"],
+      "js": ["order.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
