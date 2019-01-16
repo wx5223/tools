@@ -16,8 +16,8 @@ nextcloud:
     - DOMAIN=localhost
     - DB_TYPE=mysql
     - DB_NAME=nextcloud
-    - DB_USER=nextcloud
-    - DB_PASSWORD=数据库 nextcloud 账号密码
+    - DB_USER=root
+    - DB_PASSWORD=数据库root 账号密码
     - DB_HOST=nextcloud-db
   volumes:
     # 文件会放在宿主机的 `/docker/nextcloud` 目录，如果不存在会自动创建
